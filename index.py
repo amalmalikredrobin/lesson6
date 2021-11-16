@@ -4,19 +4,23 @@
 #     print('Welcome')
 # else: print('Bye')
 
-cost=int(input("vvedite stoimost azakaza: "))
-money=int(input("vvedite summu kotoruyu vy dali: "))
+# cost=int(input("vvedite stoimost azakaza: "))
+# money=int(input("vvedite summu kotoruyu vy dali: "))
 
-if cost % 100 == 0 and money % 100 ==0:
-     change = money - cost
-     five_hundreds = change // 500
-     change = money - cost
+# if cost % 100 == 0 and money % 100 ==0:
+#      change = money - cost
+#      five_hundreds = change // 500
+#      change = money - cost
 
-     two_hundreds= change // 200
-     change = change % 200
+#      two_hundreds= change // 200
+#      change = change % 200
 
-     hundreds = change // 100
-     print(five_hundreds, two_hundreds, hundreds)
+#      hundreds = change // 100
+#      print(five_hundreds, two_hundreds, hundreds)
+
+# firstNum=float(input("Enter first num"))
+# secondNum=float(input("Enter second num"))
+# thirdNum=float(input("Enter third num"))
 
 
-print(500//5)
+
